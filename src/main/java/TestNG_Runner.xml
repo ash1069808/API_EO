@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="Api Suite" parallel="tests">
+         
+  <test name="getRequest">
+	 <classes>
+	   <class name="api.GetTesting"/>
+	 </classes>
+   </test>
+   
+  <test name="postRequest">
+     <classes>
+       <class name="api.PostRequestValidation"/>
+     </classes>
+   </test>
+</suite>

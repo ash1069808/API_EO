@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Api Suite]" parallel="tests">
+  <test thread-count="1" name="postRequest(failed)" parallel="tests">
+    <classes>
+      <class name="api.PostRequestValidation">
+        <methods>
+          <include name="ResourceCreationwithValidData"/>
+        </methods>
+      </class> <!-- api.PostRequestValidation -->
+    </classes>
+  </test> <!-- postRequest(failed) -->
+</suite> <!-- Failed suite [Api Suite] -->
